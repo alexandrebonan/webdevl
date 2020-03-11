@@ -1,0 +1,37 @@
+html,
+body{
+    height: 100%;
+}
+.container{
+    min-width: 40em;
+    max-width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.text--center{
+    text-align: center;
+}
+.text--shadow{
+    text-shadow: 1px 1px 2px grey;
+}
+.video{
+    text-align: center;
+}
+.message{
+    width: 100%;
+}
+.tabs{
+    list-style: none;    
+}
+.tabs__tab{
+    display: inline-block;
+}
+.u-flex{
+    display: flex;
+}
+.u-flex--column{
+    flex-direction: column;
+}
+.u-flex__item{
+    flex: 1 1 auto;
+}
