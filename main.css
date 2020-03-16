@@ -1,7 +1,14 @@
 html,
 body{
+    background-image:url('https://ecovelo.com/wp-content/uploads/2019/03/Grey-Background.jpg');
     height: 100%;
 }
+img {
+ 
+    width : 200px; 
+    height : 200px; 
+     
+    }
 .container{
     min-width: 40em;
     max-width: 80%;
@@ -35,3 +42,4 @@ body{
 .u-flex__item{
     flex: 1 1 auto;
 }
+
