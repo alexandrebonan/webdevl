@@ -3,9 +3,15 @@
 }
 
 body {
-  font-family: sans-serif;
-}
-
+    font-family:  Arial,  sans-serif;
+  }
+  
+img{
+    border: none;
+    -moz-border-radius : 75px;
+    -webkit-border-radius : 75px;
+    border-radius : 75px;
+  }
 #title {
   text-align: center;
   margin-bottom: 32px;
@@ -39,9 +45,10 @@ body {
 }
 
 .authorPicture {
-  width: 100%;
-  height: auto;
-}
+    width: 100%;
+    height: auto;
+    box-shadow: 2px 2px 0px #aaa; 
+  }
 
 .multipleAuthorsAuthorPicture {
   width: 50%;
@@ -68,6 +75,5 @@ body {
   width: 20px;
 }
 body {
-  background-image: url("https://ecovelo.com/wp-content/uploads/2019/03/Grey-Background.jpg");
-  height: 100%;
-}
+    background-color: rgba(94, 102, 211, 0.849);
+  }
