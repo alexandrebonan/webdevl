@@ -1,0 +1,73 @@
+:root {
+  --single-author-project-cell-width: calc((-1) * 10px + calc(100vw / 8));
+}
+
+body {
+  font-family: sans-serif;
+}
+
+#title {
+  text-align: center;
+  margin-bottom: 32px;
+  text-shadow: 1px 1px 2px white;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.projectCellContainer {
+  position: relative;
+  width: var(--single-author-project-cell-width);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.multipleAuthorsProjectCellContainer {
+  width: calc(2 * var(--single-author-project-cell-width));
+}
+
+.authorPicturesContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.authorPicture {
+  width: 100%;
+  height: auto;
+}
+
+.multipleAuthorsAuthorPicture {
+  width: 50%;
+  height: auto;
+}
+
+.authorNames {
+  margin-top: 16px;
+}
+
+.linksContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 8px;
+}
+
+.link {
+  margin-right: 8px;
+}
+
+.linkImage {
+  height: 20px;
+  width: 20px;
+}
+body {
+  background-image: url("https://ecovelo.com/wp-content/uploads/2019/03/Grey-Background.jpg");
+  height: 100%;
+}
